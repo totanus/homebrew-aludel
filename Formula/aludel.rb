@@ -1,10 +1,10 @@
 class Aludel < Formula
   desc "Convert text or URLs to a two-voice podcast episode from the command line"
   homepage "https://aludel.matteobalocco.it/cli.html"
-  url "https://github.com/totanus/aludel-releases/releases/download/cli-v0.1.0/aludel-cli-macos-aarch64-0.1.0.zip"
-  sha256 "226b40d5dcef5180194a199ac3f00f9eedba5e6a39aabfd08c388902745920a6"
+  url "https://github.com/totanus/aludel-releases/releases/download/cli-v0.1.1/aludel-cli-macos-aarch64-0.1.1.zip"
+  sha256 "9eb57a0c7b8d9c01a383ee9775f3567878a09e956db460e7ff0f3c5c8fc97b2a"
   license :cannot_represent
-  version "0.1.0"
+  version "0.1.1"
 
   depends_on arch: :arm64
   depends_on macos: :monterey
